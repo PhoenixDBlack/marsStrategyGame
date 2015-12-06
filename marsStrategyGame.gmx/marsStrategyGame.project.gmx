@@ -5,9 +5,24 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_marsGround</sprite>
+    <sprite>sprites\spr_genHeart</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_randomGeneration.gml</script>
+    <script>scripts\scr_globalVariables.gml</script>
+    <script>scripts\scr_randomVariables.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_genHeart</object>
+    <object>objects\obj_ground</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_testLevel</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
